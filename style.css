@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 12pt;
+}
+#contenedor{
+    max-width: 90%;
+    margin: 0 auto;
+}
+nav{
+    overflow: hidden;
+    float: right;
+    background: #fd2801;
+    width: 100%;
+}
+nav ul{
+    list-style: none;
+    display: inline-block;
+}
+nav > ul{
+    float: right;
+}
+#menu > li{
+    float: left;
+    border-left: 2px solid #000;
+    padding: .5em;
+}
+nav li a{
+    color: #fff;
+}
+nav li ul li{
+    position: relative;
+}
+#sub-menu li{
+    float: inherit;
+    display: block;
+    position: relative;
+}
+nav a{
+    text-decoration: none;
+}
